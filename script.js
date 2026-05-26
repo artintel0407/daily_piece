@@ -28,9 +28,10 @@ function init() {
 }
 
 function renderSummary() {
+  const days = new Set(pieces.map((piece) => piece.date));
   const categories = new Set(pieces.map((piece) => piece.category));
 
-  totalDays.textContent = pieces.length;
+  totalDays.textContent = days.size;
   totalPieces.textContent = pieces.length;
   totalCategories.textContent = categories.size;
 }
