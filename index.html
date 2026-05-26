@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Pieces</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-area">
+      <p class="eyebrow">PERSONAL CREATIVE ARCHIVE</p>
+      <h1>Daily Pieces</h1>
+    </div>
+
+    <nav class="nav">
+      <a href="#archive">Archive</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">SMALL WORKS, QUIET PROGRESS</p>
+        <h2>One small piece,<br />built every day.</h2>
+        <p class="hero-description">
+          매일 만든 작은 결과물을 카드처럼 기록하고 쌓아가는 개인 작업 아카이브.
+          감성적인 작업도, 생산적인 작업도 이곳에 하나씩 남깁니다.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#archive" class="primary-button">View Archive</a>
+          <a href="#about" class="secondary-button">About Project</a>
+        </div>
+      </div>
+
+      <aside class="summary-card">
+        <div class="summary-row">
+          <span>Days</span>
+          <strong id="total-days">0</strong>
+        </div>
+        <div class="summary-row">
+          <span>Pieces</span>
+          <strong id="total-pieces">0</strong>
+        </div>
+        <div class="summary-row">
+          <span>Categories</span>
+          <strong id="total-categories">0</strong>
+        </div>
+      </aside>
+    </section>
+
+    <section class="quote-section">
+      <p>
+        “완벽한 한 번보다, 작은 완성 하나를 매일 만드는 것이 더 멀리 간다.”
+      </p>
+    </section>
+
+    <section id="archive" class="archive-section">
+      <div class="section-title">
+        <p class="eyebrow">MY DAILY ARCHIVE</p>
+        <h2>Pieces</h2>
+      </div>
+
+      <div class="filter-bar" id="filter-bar">
+        <!-- JS에서 필터 버튼 생성 -->
+      </div>
+
+      <div class="card-grid" id="card-grid">
+        <!-- JS에서 카드 생성 -->
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div>
+        <p class="eyebrow">ABOUT</p>
+        <h2>What is Daily Pieces?</h2>
+      </div>
+      <p>
+        Daily Pieces는 매일 만든 작은 작업을 기록하는 개인 아카이브입니다.
+        공부 정리, 프로젝트 개선, 이미지 콘셉트, 글, 아이디어, 실험 등
+        완성도가 높지 않아도 “오늘 만든 것”을 하나씩 쌓아갑니다.
+      </p>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="modal">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+
+    <article class="modal-content">
+      <button class="modal-close" id="modal-close">×</button>
+      <p class="modal-date" id="modal-date"></p>
+      <h2 id="modal-title"></h2>
+      <p class="modal-category" id="modal-category"></p>
+
+      <div class="modal-image-wrap hidden" id="modal-image-wrap">
+      <img id="modal-image" src="" alt="" />
+      </div>
+
+      <p class="modal-description" id="modal-description"></p>
+
+      <div class="modal-detail">
+        <h3>Today’s Note</h3>
+        <p id="modal-note"></p>
+      </div>
+    </article>
+  </div>
+
+  <footer class="site-footer">
+    <p>Daily Pieces · Built one day at a time.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
