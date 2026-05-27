@@ -38,5 +38,19 @@ const pieces = [
       "오늘은 Daily Pieces 프로젝트를 GitHub 저장소에 연결하고 GitHub Pages를 통해 배포했다. 이제 작업물이 내 컴퓨터 안에만 머무는 것이 아니라, 실제 웹 주소를 통해 확인할 수 있는 형태가 되었다.",
     note:
       "작은 배포지만 프로젝트가 로컬 작업물에서 공개 가능한 웹페이지로 넘어간 기록이다. 앞으로 만든 카드와 작업물을 계속 쌓아갈 수 있는 기반이 만들어졌다."
+  },
+  {
+    id: 4,
+    day: 3,
+    date: "2026-05-27",
+    title: "The Museum of Tiny Errors",
+    category: "Creative",
+    summary: "작은 오타와 헷갈리는 기호들이 박물관 유물처럼 전시된 장면을 이미지로 만들었다.",
+    thumbnailText: "Tiny\nErrors",
+    image: "images/museum-of-tiny-errors.png",
+    description:
+      "The Museum of Tiny Errors는 아주 작은 실수들이 생각보다 긴 길을 돌아가게 만든다는 경험에서 출발한 이미지 작업이다. daily와 daliy, i와 l, 하이픈과 언더스코어처럼 사소해 보이는 차이들이 유리 진열장 속 유물처럼 보관된 박물관을 상상했다.",
+    note:
+      "오늘은 GitHub 저장소 이름과 remote 주소 문제를 해결하는 과정에서 작은 문자 하나가 얼마나 큰 차이를 만드는지 체감했다. 답답한 시간이었지만, 그 실수를 그냥 넘기지 않고 하나의 작업 주제로 바꾸면서 Daily Pieces의 세 번째 조각으로 남겼다."
   }
 ];
