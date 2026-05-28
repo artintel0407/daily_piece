@@ -52,5 +52,19 @@ const pieces = [
       "The Museum of Tiny Errors는 아주 작은 실수들이 생각보다 긴 길을 돌아가게 만든다는 경험에서 출발한 이미지 작업이다. daily와 daliy, i와 l, 하이픈과 언더스코어처럼 사소해 보이는 차이들이 유리 진열장 속 유물처럼 보관된 박물관을 상상했다.",
     note:
       "오늘은 GitHub 저장소 이름과 remote 주소 문제를 해결하는 과정에서 작은 문자 하나가 얼마나 큰 차이를 만드는지 체감했다. 답답한 시간이었지만, 그 실수를 그냥 넘기지 않고 하나의 작업 주제로 바꾸면서 Daily Pieces의 세 번째 조각으로 남겼다."
+  },
+  {
+    id: 5,
+    day: 4,
+    date: "2026-05-28",
+    title: "The Garden of Sleeping Stars",
+    category: "Creative",
+    summary: "별이 꽃처럼 피어나고 성운이 정원처럼 펼쳐진, 고요한 우주의 정원을 이미지로 만들었다.",
+    thumbnailText: "Sleeping\nStars",
+    image: "images/garden-of-sleeping-stars.png",
+    description:
+      "The Garden of Sleeping Stars는 우주 어딘가에 조용히 잠들어 있는 별들의 정원을 상상하며 만든 이미지 작업이다. 꽃처럼 피어난 별빛, 성운이 드리운 하늘, 천문대처럼 보이는 구조물과 빛나는 식물들은 이곳이 단순한 풍경이 아니라 별들이 씨앗처럼 자라나는 장소처럼 느껴지도록 구성했다.",
+    note:
+      "이번 작업은 심해나 미지의 자연처럼 인간의 손이 닿지 않은 세계를 떠올리다가, 우주를 하나의 정원으로 바라보는 상상에서 출발했다. 차갑고 먼 공간으로 보이기 쉬운 우주를, 조용하고 아름답고 생명감 있는 장소처럼 표현해보고 싶었다."
   }
 ];
