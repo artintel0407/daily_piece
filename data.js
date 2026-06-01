@@ -108,5 +108,19 @@ const pieces = [
       "The Lake That Holds the Moon은 밤하늘의 달이 조용한 호수 위에 비치는 장면을 상상하며 만든 이미지 작업이다. 과장된 판타지 달보다 실제로 밤하늘에서 바라보는 달의 크기에 가까운 느낌을 살리고, 잔잔한 물결과 먼 산, 숲의 실루엣이 달빛 아래 차분하게 이어지도록 구성했다.",
     note:
       "오늘은 실제로 본 보름달처럼 뜬 달이 인상에 남아 달을 주제로 정했다. 처음에는 달이 너무 크게 표현되어 다시 조정했고, 최종적으로는 밤하늘에 자연스럽게 떠 있는 달과 그 빛이 호수에 조용히 번지는 장면을 남겼다."
-  } 
+  },
+  {
+    id: 9,
+    day: 8,
+    date: "2026-06-01",
+    title: "A Well-Balanced Study Day",
+    category: "Study",
+    summary: "05.31 공부 기록을 바탕으로, 통계학·Vue·CodeTree·영어 루틴·Daily Pieces까지 균형 있게 진행한 하루를 정리했다.",
+    thumbnailText: "Study\n9/10",
+    image: "images/study-record-9-out-of-10.png",
+    description:
+      "A Well-Balanced Study Day는 05.31 공부 기록을 Daily Pieces 카드로 정리한 작업이다. 통계학 상관분석 PDF와 개념 문제, 상관계수 계산 및 검정 문제를 확인했고, Vue checkbox/radio 핵심 문법 복습, CodeTree, 영어 루틴, Daily Pieces, 웹강 퀴즈, 집 청소까지 마무리했다. 단순히 많은 일을 한 날이라기보다, 막히는 부분을 실제로 정리하고 컨디션을 고려해 적절히 멈춘 날로 기록했다.",
+    note:
+      "오늘 카드는 Creative 이미지가 아니라 공부 기록을 주제로 삼았다. Daily Pieces가 이미지 작업만 쌓는 공간이 아니라, 공부·프로젝트·회고·작은 성취까지 남기는 아카이브라는 점을 다시 확인한 날이다. 05.31 최종 점수는 9/10으로 정리했고, 꾸준히 쌓아가는 공부 흐름을 하나의 조각으로 남겼다."
+  }
 ];
