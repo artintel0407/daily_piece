@@ -122,5 +122,19 @@ const pieces = [
       "A Well-Balanced Study Day는 05.31 공부 기록을 Daily Pieces 카드로 정리한 작업이다. 통계학 상관분석 PDF와 개념 문제, 상관계수 계산 및 검정 문제를 확인했고, Vue checkbox/radio 핵심 문법 복습, CodeTree, 영어 루틴, Daily Pieces, 웹강 퀴즈, 집 청소까지 마무리했다. 단순히 많은 일을 한 날이라기보다, 막히는 부분을 실제로 정리하고 컨디션을 고려해 적절히 멈춘 날로 기록했다.",
     note:
       "오늘 카드는 Creative 이미지가 아니라 공부 기록을 주제로 삼았다. Daily Pieces가 이미지 작업만 쌓는 공간이 아니라, 공부·프로젝트·회고·작은 성취까지 남기는 아카이브라는 점을 다시 확인한 날이다. 05.31 최종 점수는 9/10으로 정리했고, 꾸준히 쌓아가는 공부 흐름을 하나의 조각으로 남겼다."
-  }
+  },
+  {
+    id: 10,
+    day: 9,
+    date: "2026-06-02",
+    title: "The Forest of Depth-First Paths",
+    category: "Creative",
+    summary: "그래프 탐색 개념에서 떠올린 장면을 바탕으로, 빛나는 길들이 깊게 이어지는 신비로운 숲 이미지를 만들었다.",
+    thumbnailText: "Depth-\nFirst Forest",
+    image: "images/forest-of-depth-first-paths.png",
+    description:
+      "The Forest of Depth-First Paths는 오늘 배운 그래프, DFS, BFS, DAG, 위상 순서 개념에서 출발한 이미지 작업이다. 그중에서도 DFS의 ‘한 길을 끝까지 따라가고, 막히면 다시 돌아와 다른 길로 나아가는 흐름’을 숲 속 탐험 장면으로 바꾸어 표현했다. 어두운 숲 사이로 빛나는 길과 연결 지점들이 그래프의 정점과 간선처럼 이어지고, 전체 풍경은 하나의 거대한 탐색 구조처럼 보이도록 구성했다.",
+    note:
+      "오늘은 공부한 알고리즘 개념을 그대로 정리하는 대신, 그것에서 떠오른 이미지를 자유 주제로 풀어냈다. 특히 숲이라는 장면에 끌렸고, DFS의 탐험 감각이 신비로운 길과 연결 구조로 자연스럽게 이어졌다. 내일부터는 시리즈물 방향도 다시 논의해볼 예정이지만, 오늘은 우선 그래프 개념이 녹아든 자유 이미지 한 장을 Daily Pieces의 9일차 기록으로 남겼다."
+  } 
 ];
