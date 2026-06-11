@@ -220,5 +220,19 @@ const pieces = [
       "The Silent Tower - Episode 05: The Chronomancer Warden는 침묵의 탑 시리즈의 다섯 번째 장면이자 중간 보스에 해당하는 이미지다. 이번 층은 거대한 시계 장치와 기계 구조물로 가득한 성당 같은 공간이며, 그 중심에는 시간을 다루는 듯한 고차원적인 존재가 떠 있다. 기계 장치, 원형 마법진, 푸른 빛과 금속 구조가 함께 어우러지며, 단순한 기계 수호자가 아니라 마법사에 가까운 초월적 중간 보스의 분위기를 담도록 구성했다.",
     note:
       "처음에는 기계 기사나 자동 병기 같은 방향도 시도했지만, 이번 5화는 중간 보스인 만큼 조금 더 특별하고 상위 존재 같은 느낌이 필요하다고 판단했다. 그래서 시계 장치와 마법이 결합된 고차원적 수호자라는 방향으로 조정했고, 최종적으로 마법사 같은 실루엣과 시간/기계 구조가 함께 보이는 이미지를 선택했다. 이 장면은 탑 시리즈가 본격적으로 더 높은 단계로 넘어가는 분기점 역할을 한다."
+  },
+  {
+    id: 17,
+    day: 15,
+    date: "2026-06-11",
+    title: "The Silent Tower - Episode 06: The Ashen Dragon of the Broken Constellation",
+    category: "Creative",
+    summary: "침묵의 탑 시리즈 6화로, 부서진 별자리와 천체 고리 속에 나타난 잿빛 용 수호자를 이미지로 만들었다.",
+    thumbnailText: "Ashen\nDragon",
+    image: "images/silent-tower-episode-06-ashen-dragon-broken-constellation.png",
+    description:
+      "The Silent Tower - Episode 06: The Ashen Dragon of the Broken Constellation은 침묵의 탑 시리즈의 여섯 번째 장면이다. 중간 보스였던 시계 마법사 이후, 탑의 상층부는 단순한 성당이나 전투 공간을 넘어 별자리와 천체 구조가 무너진 고차원적인 공간으로 확장된다. 그 중심에는 재와 돌, 금빛 별자리 조각이 뒤섞인 거대한 용 수호자가 서 있으며, 부서진 천체 고리와 별의 선들이 용의 몸 주변을 감싸고 있다.",
+    note:
+      "처음에는 일반적인 잿빛 드래곤과 폐허 성당 느낌으로 이미지를 생성했지만, 생각보다 평범한 드래곤 장면처럼 보여 마음에 들지 않았다. 그래서 5화 이후부터는 조금 더 고차원적인 분위기를 넣는 방향으로 수정했고, 최종적으로 별자리와 천체 고리가 결합된 Ashen Dragon 이미지를 선택했다. 이미지 안에 들어간 글자는 제거해, Daily Pieces 카드에 더 자연스럽게 들어가도록 정리했다."
   }
 ];
