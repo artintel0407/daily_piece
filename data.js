@@ -234,5 +234,19 @@ const pieces = [
       "The Silent Tower - Episode 06: The Ashen Dragon of the Broken Constellation은 침묵의 탑 시리즈의 여섯 번째 장면이다. 중간 보스였던 시계 마법사 이후, 탑의 상층부는 단순한 성당이나 전투 공간을 넘어 별자리와 천체 구조가 무너진 고차원적인 공간으로 확장된다. 그 중심에는 재와 돌, 금빛 별자리 조각이 뒤섞인 거대한 용 수호자가 서 있으며, 부서진 천체 고리와 별의 선들이 용의 몸 주변을 감싸고 있다.",
     note:
       "처음에는 일반적인 잿빛 드래곤과 폐허 성당 느낌으로 이미지를 생성했지만, 생각보다 평범한 드래곤 장면처럼 보여 마음에 들지 않았다. 그래서 5화 이후부터는 조금 더 고차원적인 분위기를 넣는 방향으로 수정했고, 최종적으로 별자리와 천체 고리가 결합된 Ashen Dragon 이미지를 선택했다. 이미지 안에 들어간 글자는 제거해, Daily Pieces 카드에 더 자연스럽게 들어가도록 정리했다."
+  },
+  {
+    id: 18,
+    day: 16,
+    date: "2026-06-12",
+    title: "Algorithm Shorts Lab - Bubble Sort Prototype",
+    category: "Project",
+    summary: "Python과 matplotlib로 첫 번째 알고리즘 시각화 GIF인 Bubble Sort 쇼츠 프로토타입을 완성했다.",
+    thumbnailText: "Bubble\nSort",
+    image: "images/algorithm-shorts-lab-bubble-sort-prototype.png",
+    description:
+      "Algorithm Shorts Lab - Bubble Sort Prototype은 알고리즘을 세로형 쇼츠 콘텐츠로 시각화하는 첫 번째 실험이다. Python과 matplotlib를 사용해 Bubble Sort 과정을 9:16 비율의 GIF로 만들었고, 막대 그래프, 비교와 교환 색상, C++ 핵심 코드 패널, PASS / COMPARE / SWAP 카운터를 함께 보여주도록 구성했다. 아직 MP4 변환과 배경음악 추가는 하지 않았지만, 알고리즘 학습과 콘텐츠 제작을 연결하는 첫 번째 완성 프로토타입이라는 점에서 의미가 있다.",
+    note:
+      "이번 작업은 Codex를 활용해 전체 코드를 구성하고, 여러 번 결과물을 확인하면서 디자인과 애니메이션을 다듬은 프로젝트다. 검은 배경, 숫자가 표시된 막대, 비교/교환/정렬 상태의 색상 구분, 코드 라인 하이라이트, 완료 장면까지 포함해 하나의 짧은 알고리즘 시각화 콘텐츠 형태를 만들었다. 기말이 완전히 끝난 뒤에는 이 GIF를 MP4로 변환하고 배경음악을 추가해 실제 Shorts 콘텐츠로 발전시킬 계획이다."
   }
 ];
