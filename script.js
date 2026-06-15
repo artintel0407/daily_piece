@@ -1,5 +1,6 @@
 const cardGrid = document.querySelector("#card-grid");
 const filterBar = document.querySelector("#filter-bar");
+const pagination = document.querySelector("#pagination");
 
 const totalDays = document.querySelector("#total-days");
 const totalPieces = document.querySelector("#total-pieces");
@@ -19,6 +20,8 @@ const modalImageWrap = document.querySelector("#modal-image-wrap");
 const modalImage = document.querySelector("#modal-image");
 
 let currentCategory = "All";
+let currentPage = 1;
+const itemsPerPage = 6;
 
 function init() {
   renderSummary();
@@ -52,6 +55,7 @@ function renderFilters() {
 
     button.addEventListener("click", () => {
       currentCategory = category;
+      currentPage = 1;
       renderFilters();
       renderCards();
     });
@@ -65,10 +69,15 @@ function renderCards() {
     currentCategory === "All"
       ? pieces
       : pieces.filter((piece) => piece.category === currentCategory);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const paginatedPieces = filteredPieces.slice(
+    startIndex,
+    startIndex + itemsPerPage
+  );
 
   cardGrid.innerHTML = "";
 
-  filteredPieces.forEach((piece) => {
+  paginatedPieces.forEach((piece) => {
     const card = document.createElement("article");
     card.className = "piece-card";
 
@@ -93,6 +102,38 @@ function renderCards() {
 
     cardGrid.appendChild(card);
   });
+
+  renderPagination(filteredPieces.length);
+}
+
+function renderPagination(totalItems) {
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+  pagination.innerHTML = "";
+
+  if (totalPages <= 1) {
+    return;
+  }
+
+  for (let page = 1; page <= totalPages; page += 1) {
+    const button = document.createElement("button");
+    button.className = "pagination-button";
+    button.type = "button";
+    button.textContent = page;
+    button.setAttribute("aria-label", `${page}페이지로 이동`);
+
+    if (page === currentPage) {
+      button.classList.add("active");
+      button.setAttribute("aria-current", "page");
+    }
+
+    button.addEventListener("click", () => {
+      currentPage = page;
+      renderCards();
+    });
+
+    pagination.appendChild(button);
+  }
 }
 
 function openModal(piece) {
